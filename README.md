@@ -1,4 +1,5 @@
 ![LUSID_by_Finbourne](https://content.finbourne.com/LUSID_repo.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffinbourne%2Flusid-client-python.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffinbourne%2Flusid-client-python?ref=badge_shield)
 
 This repository contains examples showing how to make calls to LUSID using the LUSID SDK via a python script or running as tests. These can be found in the `src` folder. 
 
@@ -34,3 +35,7 @@ macOS/linux:
 ```
 $ PYTHONPATH=$(pwd):$(pwd)/tests python -m unittest discover -v
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffinbourne%2Flusid-client-python.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffinbourne%2Flusid-client-python?ref=badge_large)
