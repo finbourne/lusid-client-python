@@ -26,11 +26,11 @@ Windows:
 
 ```
 $ set PYTHONPATH=%PYTHONPATH%;%cd%;%cd%\tests
-$ pytest test_connectivity.py -v -rP
+$ pytest tests\test_connectivity.py -v -rP
 ```
 
 macOS/linux:
 
 ```
-$ PYTHONPATH=$(pwd):$(pwd)/tests pytest test_connectivity.py -v -rP
+$ PYTHONPATH=$(pwd):$(pwd)/tests pytest tests/test_connectivity.py -v -rP
 ```
